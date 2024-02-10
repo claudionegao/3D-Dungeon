@@ -5,8 +5,4 @@ const Styles = styled.h1`
     font-size: ${props => `${props.fontsize}px`};
 `
 
-const Styles2 = styled(Styles)`
-    
-`
-
 export default Styles
