@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Styles } from "../pages/styles";
+import Styles from "../styles/styles";
 
 function Text(props){
     const [numero, setContador] = useState(1);
