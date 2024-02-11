@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Geraldiv = styled.div`
+const Geraldiv = styled.div`
     display: flex;
     position: absolute;
     height: 97%;
@@ -15,3 +15,5 @@ export const Geraldiv = styled.div`
     }
     
 `
+
+export default Geraldiv
