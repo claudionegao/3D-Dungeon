@@ -3,15 +3,18 @@ import Styles from "../styles/styles";
 
 function Text(props){
     const [numero, setContador] = useState(1);
+    const [rdm, setRandom] = useState(1);
 
     function contador(){
+        setRandom(Math.floor((Math.random() * (20 - 1 + 1)) + 1))
+        console.log(rdm)
         setContador(numero + 10)
     }
 
     return  <div>
                 <div>{numero}</div>
                 <button onClick={contador}>Adicionar</button>
-                <Styles fontsize={numero}>Hello</Styles>
+                <Styles fontsize={rdm * 10}>Hello</Styles>
             </div>
 }
 
