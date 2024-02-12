@@ -14,7 +14,7 @@ function Text(props){
     return  <div>
                 <div>{rdm}</div>
                 <button onClick={contador}>Adicionar</button>
-                <Styles fontsize={contador}>Hello {rdm}</Styles>
+                <Styles fontsize={numero}>Hello {rdm}</Styles>
             </div>
 }
 
