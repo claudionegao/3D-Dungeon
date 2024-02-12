@@ -1,9 +1,16 @@
+import BasicExample from "../components/bars"
 import Geraldiv from "../styles/game"
 
 function Game(){
     return  <Geraldiv>
                 <div>
-                    <h1>Game</h1>
+                    <div>
+                        <h1>Self</h1>
+                        <BasicExample></BasicExample>
+                    </div>
+                    <div>
+                        <h1>Enemy</h1>
+                    </div>
                 </div>
             </Geraldiv>
 }
