@@ -6,7 +6,7 @@ function Game(){
                 <div>
                     <div>
                         <h1>Self</h1>
-                        <BasicExample></BasicExample>
+                        <BasicExample/>
                     </div>
                     <div>
                         <h1>Enemy</h1>
