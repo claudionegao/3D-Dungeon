@@ -3,15 +3,15 @@ import Geraldiv from "../styles/game"
 
 function Game(){
     return  <Geraldiv>
-                <div>
-                    <div>
+                <section>
+                    <section>
                         <h1>Self</h1>
                         <BasicExample/>
-                    </div>
-                    <div>
+                    </section>
+                    <section>
                         <h1>Enemy</h1>
-                    </div>
-                </div>
+                    </section>
+                </section>
             </Geraldiv>
 }
 

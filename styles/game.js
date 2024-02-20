@@ -8,14 +8,14 @@ const Geraldiv = styled.div`
     align-items: center;
     justify-content: center;
     
-    div{
+    section{
         position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
         height: 250px;
         width: 450px;
-        div{
+        section{
             border-style: solid;
             padding: 10px;
             margin: 10px;
