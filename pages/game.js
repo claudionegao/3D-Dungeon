@@ -6,10 +6,11 @@ function Game(){
                 <section>
                     <section>
                         <h1>Self</h1>
-                        <BasicExample/>
+                        <t>100%</t>
                     </section>
                     <section>
                         <h1>Enemy</h1>
+                        <t>100%</t>
                     </section>
                 </section>
             </Geraldiv>
