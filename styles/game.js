@@ -16,7 +16,9 @@ const Geraldiv = styled.div`
         height: 250px;
         width: 450px;
         section{
+            gap: 20px;
             display: flex;
+            flex-direction: column;
             border-style: solid;
             padding: 10px;
             margin: 10px;
